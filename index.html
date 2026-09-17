@@ -1,76 +1,36 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
-    <head>
-        <meta http-equiv = "Content-Type" content = "text/html; charset=UTF-8"><link href = "main.css" rel = "stylesheet" type = "text/css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Jerry Wang's Personal Website</title>
+    <title>Jerry Wang — ML & perception engineer</title>
+    <meta
+      name="description"
+      content="Jerry Wang builds perception and inference systems — on-device LLM inference, reinforcement learning for UAV navigation, and real-time C++/CUDA driving perception."
+    />
 
-        <meta name     = "og:description" content = "Hsing-Hao Wang's Personal Website">
-        <meta property = "og:title" content = "Hsing-Hao Wang's Personal Website">
-        <meta property = "og:type" content = "website">
-        <meta property = "og:url" content = "https://jerrryw.github.io/">
-        <meta property = "og:site_name" content = "Hsing-Hao Wang's Personal Website">
-    </head>
+    <!-- Open Graph: controls how the link renders when shared on LinkedIn. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jerrryw.github.io/" />
+    <meta property="og:title" content="Jerry Wang — ML & perception engineer" />
+    <meta
+      property="og:description"
+      content="On-device LLM inference, reinforcement learning for UAV navigation, and real-time driving perception."
+    />
+    <!-- TODO: add a 1200x630 og.png to /public and uncomment.
+    <meta property="og:image" content="https://jerrryw.github.io/og.png" /> -->
+    <meta name="twitter:card" content="summary_large_image" />
 
-    <body data-new-gr-c-s-check-loaded="14.1129.0" data-gr-ext-installed="">
-
-        <div style = "text-align:left;margin:1em 0;height:240px">
-            <img src = "HSING-HAO WANG.jpg" style = "height:220px; float:left; margin-left: 13.5em; margin-top: 1em;"></a>
-        </div>
-
-        <div style = "text-align:center;">
-            <h1>Hi! I'm Jerry.</h1>
-        </div>
-
-        <hr>
-
-        <!-- <h2>About Me</h2> -->
-        <p>
-            I received my bachelor's degree in Computer Science from Rutgers University-New Brunswick and am pursuing a master's degree in Applied Machine Learning at the University of Maryland, College Park.<br>
-            <br>
-            My academic journey has led me to explore diverse fields, from natural language processing to computer vision. I'm particularly interested in how machine learning can revolutionize industries such as automation, healthcare, and robotics.<br>
-            <br>
-            Outside of academics, I enjoy working on projects that challenge my coding skills and creativity. I love to collaborate on innovative ideas and continue learning from others in this ever-evolving field.<br>
-            <br>
-            If you are interested in discussing new opportunities, please contact me through LinkedIn or by email at jerryhhw23@gmail.com.
-        </p>
-        <hr>
-
-        <div style = "text-align: center; margin-bottom: auto;">
-            <a target = "_blank" href = "mailto:jerryhhw23@gmail.com"><img src = "email.png" height = "50px" align = "auto"></a>&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a target = "_blank" href = "https://www.linkedin.com/in/jerryhhw/"><img src = "linkedin.png" height = "50px" align = "auto"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a target = "_blank" href = "https://github.com/jerrryw"><img src = "github.png" height = "50px" align = "auto"></a>&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a target = "_blank" href = "Jerry_Wang_Resume.pdf"><img src = "paper.png" height = "50px" align = "auto"></a>&nbsp;
-        </div>
-
-    </body>
-
-    <grammarly-desktop-integration data-grammarly-shadow-root="true">
-        <template shadowrootmode="open">
-            <style>
-                div.grammarly-desktop-integration {
-                    position: absolute;
-                    width: 1px;
-                    height: 1px;
-                    padding: 0;
-                    margin: -1px;
-                    overflow: hidden;
-                    clip: rect(0, 0, 0, 0);
-                    white-space: nowrap;
-                    border: 0;
-                    -moz-user-select: none;
-                    -webkit-user-select: none;
-                    -ms-user-select:none;
-                    user-select:none;
-                }
-
-                div.grammarly-desktop-integration:before {
-                    content: attr(data-content);
-                }
-            </style>
-            <div aria-label = "grammarly-integration" role = "group" tabindex = "-1" class = "grammarly-desktop-integration" data-content = "{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div>
-        </template>
-    </grammarly-desktop-integration>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
