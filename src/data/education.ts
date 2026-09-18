@@ -2,13 +2,13 @@ import type { Degree, Credential } from './types';
 
 export const degrees: readonly Degree[] = [
   {
-    degree: 'MS, Applied Machine Learning',
+    degree: 'Master of Science, Applied Machine Learning',
     institution: 'University of Maryland, College Park',
     conferred: 'May 2026',
     location: 'College Park, MD',
   },
   {
-    degree: 'BS, Computer Science',
+    degree: 'Bachelor of Science, Computer Science',
     institution: 'Rutgers University, New Brunswick',
     conferred: 'May 2023',
     location: 'New Brunswick, NJ',
