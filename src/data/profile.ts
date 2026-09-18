@@ -3,10 +3,10 @@ import type { SiteProfile } from './types';
 export const profile: SiteProfile = {
   name: 'Jerry Wang',
   tagline: 'I build perception and inference systems that run under real constraints.',
-  bio: `Machine learning engineer working where models meet hardware — stereo depth to
-control policy, LLM inference on a local GPU, C++/CUDA pipelines that hold frame budget.
-I finished an MS in Applied Machine Learning at the University of Maryland in May 2026,
-after a CS degree at Rutgers.`,
+  bio: `Software engineer working where models meet hardware — stereo depth to
+  control policy, LLM inference on a local GPU, pipelines that hold frame budget.
+  I finished a Master's degree in Applied Machine Learning at the University of Maryland in May 2026,
+  after a Bachelor's degree in Computer Science at Rutgers University.`,
   location: 'New York Metropolitan Area',
   email: 'jerryhhw23@gmail.com',
   resumePath: '/Jerry_Wang_Resume.pdf',
