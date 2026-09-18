@@ -12,7 +12,7 @@ export function Hero() {
             Email me
           </a>
           <a className="button" href={profile.resumePath}>
-            Read my résumé
+            Read my resume
           </a>
           <span className="hero__location">{profile.location}</span>
         </div>

@@ -25,6 +25,6 @@ export const profile: SiteProfile = {
     },
     { label: 'GitHub', href: 'https://github.com/jerrryw' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/jerryhhw/' },
-    { label: 'Résumé', href: '/Jerry_Wang_Resume.pdf' },
+    { label: 'Resume', href: '/Jerry_Wang_Resume.pdf' },
   ],
 };
